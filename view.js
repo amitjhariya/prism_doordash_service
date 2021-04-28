@@ -4,8 +4,8 @@ const axios = require('axios')
 
 
     var config = {
-        method: 'post',
-        url: 'https://merchant-mobile-bff.doordash.com/v1/confirm_viewed/7889d4cb-cd0f-4d1a-a7f3-4d7f7c24a2fb',
+        method: 'get',
+        url: 'https://merchant-mobile-bff.doordash.com/v1/confirm_viewed/4509449875',
         headers: { 
           'Authorization': 'JWT eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTYxOTUzMzkyNSwiZXhwIjoxNjE5NzkzMTI1LCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6NCwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjkxNjYxMjQ5LCJlbWFpbCI6ImRlc2ljaG9wc2luY0BnbWFpbC5jb20ifSwiY2lkIjoxNjQ4MTcxODU4MTAxNzg0NzY1fQ.8zNszrOl9uyB9wrHU8_Tzhud55O-jFb-D2YdWAem2Eg', 
           'Host': '', 
@@ -15,9 +15,9 @@ const axios = require('axios')
           
           axios(config)
           .then(function (response) {
-              // let jsondata=JSON.parse(response.data.payload)
+            // let jsondata=JSON.parse(response.data.payload)
                 console.log(response.data);
-            //   { delivery_uuid: '7889d4cb-cd0f-4d1a-a7f3-4d7f7c24a2fb' }
+            // { delivery_uuid: '7889d4cb-cd0f-4d1a-a7f3-4d7f7c24a2fb' }
           })
           .catch(function (error) {
             console.log(error);

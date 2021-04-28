@@ -1,0 +1,125 @@
+{
+    "order": {
+        "delivery_uuid": "4c1687e4-7369-4e35-91ef-5254c67a5f11",
+        "customer": {
+            "customer_name": "Lakshmi P.",
+            "customer_name_localized": "Lakshmi P",
+            "phone_number": null
+        },
+        "item_count": 1,
+        "simulated_order": false,
+        "net_sub_total_monetary_fields": null,
+        "promotion_title": null,
+        "sub_total_monetary_fields": {
+            "amount": 299,
+            "currency": "USD",
+            "decimal_places": 2
+        },
+        "tax_monetary_fields": {
+            "amount": 35,
+            "currency": "USD",
+            "decimal_places": 2
+        },
+        "total_monetary_fields": {
+            "amount": 334,
+            "currency": "USD",
+            "decimal_places": 2
+        },
+        "tips_monetary_fields": null,
+        "pre_merchant_tips_monetary_fields": null,
+        "fulfillment_type": "CONSUMER",
+        "order_protocol": "TABLET",
+        "estimated_pickup_time": "2021-04-28T18:02:16.553Z",
+        "delivery_address": null,
+        "items": [
+            {
+                "id": "5829484096",
+                "order_id": "4509449875",
+                "customer_name": "",
+                "customer_name_localized": "",
+                "item_name": "Nanny's Naan",
+                "quantity": 1,
+                "price_monetary_fields": {
+                    "amount": 299,
+                    "currency": "USD",
+                    "decimal_places": 2
+                },
+                "special_instruction": "",
+                "substitution_preference": "SUBSTITUTE",
+                "menu_item": {
+                    "id": "154411091",
+                    "category_title": "Tandoor and Breads",
+                    "store_internal_sku": ""
+                },
+                "extras": []
+            }
+        ],
+        "order_notes": [],
+        "pos_transaction": null,
+        "print_detail": {
+            "delivery_uuid": "4c1687e4-7369-4e35-91ef-5254c67a5f11",
+            "customer_name": "Lakshmi P.",
+            "customer_name_localized": "Lakshmi P",
+            "customer_phone": "",
+            "customer_address": null,
+            "dasher_instructions": "",
+            "net_sub_total_monetary_fields": null,
+            "promotion_title": null,
+            "sub_total": 299,
+            "total": 334,
+            "tax": 35,
+            "tips": 0,
+            "subTotal_monetary_fields": {
+                "amount": 299,
+                "currency": "USD",
+                "decimal_places": 2
+            },
+            "total_monetary_fields": {
+                "amount": 334,
+                "currency": "USD",
+                "decimal_places": 2
+            },
+            "tax_monetary_fields": {
+                "amount": 35,
+                "currency": "USD",
+                "decimal_places": 2
+            },
+            "tips_monetary_fields": null,
+            "pre_merchant_tips_monetary_fields": null,
+            "item_count": 1,
+            "print_statuses": [
+                "Customer Pickup"
+            ],
+            "order_status": "NEW",
+            "estimated_pickup_time": "2021-04-28T18:02:16.553Z",
+            "print_order_item": [
+                {
+                    "customer_name": "",
+                    "customer_name_localized": "",
+                    "item_name": "Nanny's Naan",
+                    "price": 299,
+                    "price_monetary_fields": {
+                        "amount": 299,
+                        "currency": "USD",
+                        "decimal_places": 2
+                    },
+                    "quantity": 1,
+                    "special_instruction": "",
+                    "menu_item": {
+                        "id": "154411091",
+                        "category_title": "Tandoor and Breads",
+                        "store_internal_sku": ""
+                    },
+                    "print_order_options": []
+                }
+            ],
+            "hide_sales_tax": false,
+            "fulfillment_type": "CONSUMER"
+        },
+        "hide_sales_tax": false,
+        "menu_options": [],
+        "order_experience": "DOORDASH"
+    },
+    "dasher_info": null,
+    "pickup_customer_status_info": null
+}

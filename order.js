@@ -21,6 +21,7 @@ let timeOut = 1000*30;
       .then(function (response) {
           // let jsondata=JSON.parse(response.data.payload)
           console.log(response.data);
+        //   console.log(response.data.kitchen);
       })
       .catch(function (error) {
         console.log(error);
